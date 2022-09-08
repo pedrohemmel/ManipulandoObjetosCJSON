@@ -2,31 +2,88 @@
     {
         "id_usuario": 1,
         "nome_usuario": "Pedro Henrique",
-        "profissao_usuario": "iOS Developer"
+        "profissao_usuario":
+        [
+            {
+                "id_profissao": 1,
+                "cargo_profissao": "Administrador de Imoveis",
+                "salario_profissao": "R$3.000,00"
+            },
+            {
+                "id_profissao": 2,
+                "cargo_profissao": "iOS Developer",
+                "salario_profissao": "R$4.000,00"
+            }
+        ]
     },
     {
         "id_usuario": 2,
         "nome_usuario": "Gabriel Dias",
-        "profissao_usuario": "Tech Recruiter"
+        "profissao_usuario":
+        [
+            {
+                "id_profissao": 3,
+                "cargo_profissao": "Tech Recruiter",
+                "salario_profissao": "R$4.000,00"
+            },
+            {
+                "id_profissao": 4,
+                "cargo_profissao": "Desenvolvedor Web",
+                "salario_profissao": "R$4.000,00"
+            }
+        ]
     },
     {
         "id_usuario": 3,
         "nome_usuario": "Danilo Carvalho",
-        "profissao_usuario": "Gerente de vendas"
+        "profissao_usuario":
+        [
+            {
+                "id_profissao": 5,
+                "cargo_profissao": "Recursos Humanos",
+                "salario_profissao": "R$3.200,00"
+            }
+        ]
     },
     {
         "id_usuario": 4,
         "nome_usuario": "Arthur Talles",
-        "profissao_usuario": "Data Base Developer"
+        "profissao_usuario":
+        [
+            {
+                "id_profissao": 6,
+                "cargo_profissao": "Data Base Manager",
+                "salario_profissao": "R$5.000,00"
+            }
+        ]
     },
     {
         "id_usuario": 5,
         "nome_usuario": "Henrique Cunha",
-        "profissao_usuario": "Programador Java"
+        "profissao_usuario":
+        [
+            {
+                "id_profissao": 7,
+                "cargo_profissao": "Programador Java",
+                "salario_profissao": "R$10.200,00"
+            },
+            {
+                "id_profissao": 8,
+                "cargo_profissao": "Programador Swift",
+                "salario_profissao": "R$37.500,00"
+            }
+        ]
     },
     {
         "id_usuario": 6,
         "nome_usuario": "Gustavo Mesquita",
-        "profissao_usuario": "Tester QA"
+        "profissao_usuario":
+        [
+            {
+                "id_profissao": 9,
+                "cargo_profissao": "Gerente de vendas",
+                "salario_profissao": "R$10.200,00"
+            }
+        ]
     }
 ]

@@ -12,18 +12,24 @@ struct ContentView: View {
     @State var pessoasDoJson = [PessoaModel]()
     
     var body: some View {
-        VStack {
-            
-            List {
-                ForEach(pessoasDoJson, id: \.id_usuario) { pessoa in
-                    Text(pessoa.nome_usuario)
+        NavigationView {
+            VStack {
+                
+                List {
+                    ForEach(pessoasDoJson, id: \.id_usuario) { pessoa in
+                        NavigationLink(destination: MostrarProfissaoView(profissao: .constant(pessoa.profissao_usuario)), label: {
+                            Text(pessoa.nome_usuario)
+                        })
+                        
+                    }
                 }
+                
             }
-            
+            .onAppear {
+                self.pessoasDoJson = DataLoader().pessoas
+            }
         }
-        .onAppear {
-            self.pessoasDoJson = DataLoader().pessoas
-        }
+        
     }
 }
 

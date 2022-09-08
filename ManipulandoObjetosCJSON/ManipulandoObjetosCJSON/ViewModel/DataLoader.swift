@@ -29,7 +29,7 @@ public class DataLoader {
                 self.pessoas = dataFromJSON
                 
             } catch {
-                print("Puta que pariu caralho \(error)")
+                print("\(error)")
             }
         }
     }
